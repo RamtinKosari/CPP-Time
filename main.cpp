@@ -24,3 +24,18 @@
      */
     # define __WHAT_IS_CPP
 # endif __WHAT_IS_CPP
+
+# ifndef __WHY_CPP
+    /**
+     * @brief Reasons :
+     * - Object-Oriented Programming
+     * - Generic Programming
+     * - Exception Handling
+     * - Large and Active Community of Developers
+     * - Performance, Flexibility, and Portability
+     * - Large Standard Library
+     * - Memory Management
+     * - Interoperability
+     */
+    # define __WHY_CPP
+# endif // __WHY_CPP
