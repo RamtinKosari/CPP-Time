@@ -57,3 +57,17 @@
      */
     # define __WHERE_TO_LEARN_CPP
 # endif // __WHERE_TO_LEARN_CPP
+
+# ifndef __EXECUTE_CODE
+    /**
+     * @brief Executing a Programming Language Means Running
+     * or Executing the Code Written in That Language on a
+     * Computer or Other Device.
+     * @details Computer Needs to be Able to Understand and
+     * Interpret the Code. This is Usually Done Through the
+     * Use of a Compiler or Interpreter.
+     * @attention Check Future Posts to Understand What are
+     * Compiler and Interpreter
+     */
+    # define __EXECUTE_CODE
+# endif // __EXECUTE_CODE
