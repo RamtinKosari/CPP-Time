@@ -23,7 +23,7 @@
      * - Embedded Software
      */
     # define __WHAT_IS_CPP
-# endif __WHAT_IS_CPP
+# endif // __WHAT_IS_CPP
 
 # ifndef __WHY_CPP
     /**
@@ -56,4 +56,4 @@
      *   to Software Development
      */
     # define __WHERE_TO_LEARN_CPP
-# endif __WHERE_TO_LEARN_CPP
+# endif // __WHERE_TO_LEARN_CPP
