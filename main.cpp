@@ -39,3 +39,21 @@
      */
     # define __WHY_CPP
 # endif // __WHY_CPP
+
+# ifndef __WHERE_TO_LEARN_CPP
+    /**
+     * @brief There are Many Excellent Resources
+     * Available for Learning C++ :
+     * - @note cppreference.com : Find Almost Everything
+     *   about C++ Syntax, Semantics, Standard Library
+     *   Components and Their Functions
+     * - @note learncpp.com : Provides in-Depth Tutorials
+     *   on C++ Programming That are Suitable for Both
+     *   Beginners and Experienced Programmers
+     * - @note stackoverflow.com : Popular Online
+     *   Community Where Programmers and Developers
+     *   Can Ask and Answer Technical Questions Related
+     *   to Software Development
+     */
+    # define __WHERE_TO_LEARN_CPP
+# endif __WHERE_TO_LEARN_CPP
