@@ -71,3 +71,24 @@
      */
     # define __EXECUTE_CODE
 # endif // __EXECUTE_CODE
+
+# ifndef __COMPILER_AND_INTERPRETER
+    /**
+     * @brief in This Post We are Going to Understand
+     * What are Compiler and Interpreter
+     * @note Compiler : is a Program That Translates
+     * the Entire Source Code of a Program into Machine
+     * Language That Can be Executed Directly by the
+     * Computer. Once the Source Code has been Compiled,
+     * the Resulting Executable File Can be Run Repeatedly
+     * Without Need of Recompilation.
+     * @note Interpreter : on the Other Hand, Executes
+     * the Program Line by Line, Translating each
+     * Instruction into Machine Language and Immediately
+     * Executing It. Interpreted Languages are Often Used
+     * for Scripting and Rapid Prototyping Because They
+     * Allow for Quick Iteration and Feedback During
+     * Development.
+     */
+    # define __COMPILER_AND_INTERPRETER
+# endif // __COMPILER_AND_INTERPRETER
