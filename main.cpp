@@ -92,3 +92,74 @@
      */
     # define __COMPILER_AND_INTERPRETER
 # endif // __COMPILER_AND_INTERPRETER
+
+# ifndef __INSTALL_CPP_AND_COMPILER
+    /**
+     * @brief C++ is a Compiled Programming Language, Which
+     * Means That in Order to Run C++ Code, It Must First
+     * be Compiled into Machine-Readable Binary Code. to Do
+     * This, You Need a C++ Compiler.
+     * @note There are Many C++ Compilers Available, Popular
+     * Compilers are : GCC, Clang and Intel Compiler
+     * @details Here We Show How to Install GCC on Unix-Based
+     * Operating Systems Like Linux and Macos and Also Windows
+     * so Open Terminal on Your Unix or CMD on Windows then
+     * Swipe Through Next Slides for Installations Guide
+     */
+    # define __INSTALL_CPP_AND_COMPILER
+# endif // __INSTALL_CPP_AND_COMPILER
+
+# ifndef __INSTALL_GCC_ON_LINUX
+    /**
+     * @brief Install GCC on Linux
+     * @note Debian-Based Distributions (Ubuntu, Mint and ...)
+     * - sudo apt-get update
+     * - sudo apt-get install g++
+     * @note Red Hat-based Distributions (Fedora and ...)
+     * - sudo dnf update
+     * - sudo dnf install gcc-c++
+     * @note CentOS :
+     * - sudo yum update
+     * - sudo yum install gcc-c++
+     * @note Arch and Manjaro Linux :
+     * - sudo pacman -S gcc
+     */
+    # define __INSTALL_GCC_ON_LINUX
+# endif // __INSTALL_GCC_ON_LINUX
+
+# ifndef __INSTALL_GCC_ON_MAC
+    /**
+     * @brief Install GCC on MacOS
+     * @note Install Homebrew if Not Installed Yet :
+     * - /bin/bash -c "$(curl -fsSL https://raw.github ...
+         usercontent.com/Homebrew/install/HEAD/install.sh)"
+     * - brew update
+     * - brew install gcc
+     */
+    # define __INSTALL_GCC_ON_MAC
+# endif // __INSTALL_GCC_ON_MAC
+
+# ifndef __INSTALL_GCC_ON_WINDOWS
+    /**
+     * @brief to Install GCC on Windows You Must Download the
+     * MinGW (Minimalist GNU for Windows) Installer that is
+     * Not Exactly the Same as GCC, But It Includes a Version
+     * of the GCC Compiler as Well as Other Development Tools.
+     * - Download MinGW Installer from the Official website :
+     *   https://osdn.net/projects/mingw/releases/
+     * - Run the Downloaded .exe File and Select "Install"
+     *   When Prompted.
+     * - Follow Installation Step by Step
+     * - Once the Installation is Complete, Add the Bin Directory
+     *   of your MinGW Installation to the System PATH Environment
+     *   Variable. This Can be Done by Following These Steps :
+     * - Right-Click on "My Computer" or "This PC" and Select
+     *   "Properties". Click on "Advanced System Settings", then
+     *   Click on "Environment Variables". Under "System Variables",
+     *   Locate the "Path" Variable and Click on "Edit". Add the
+     *   Path to Your MinGW Bin Directory (e.g., C:\MinGW\bin) at the
+     *   End of the Existing Value and Separate It from the Preceding
+     *   Value Using a Semicolon (;). Click on "OK" to Save Changes.
+     */
+    # define __INSTALL_GCC_ON_WINDOWS
+# endif // __INSTALL_GCC_ON_WINDOWS
